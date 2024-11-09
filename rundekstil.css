@@ -1,0 +1,169 @@
+/* Glavni stil za tijelo stranice */
+body {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff; /* Bijela boja teksta */
+    background-color: #000000; /* Crna boja pozadine */
+    margin: 77px;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0.9;
+}
+
+/* Stilizacija headinga */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #FFD700;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Paragrafi */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Linkovi */
+p a {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #FFD700;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Navigacija */
+nav {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #000000; /* Crna pozadina za navigaciju */
+    padding: 15px 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1); /* Bijela sjena */
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+nav a:active {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+/* Radio gumbi */
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border: 2px solid #FFD700;
+    border-radius: 50%;
+    margin: 0 5px 0 0;
+    padding: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked:before {
+    content: "✔";
+    font-family: Arial, monospace;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFD700;
+    text-align: center;
+}
+
+/* Tablice */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff; /* Bijela boja teksta */
+    background-color: #000000; /* Crna pozadina tablice */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #FFD700; /* Žuti obrubi */
+}
+
+th {
+    background-color: #333333;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a; /* Alternativna boja za retke */
+}
+
+/* Gumb za preuzimanje */
+.download-button {
+    display: inline-block;
+    background-color: #FFD700;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #d4af37; /* Tamnija žuta za hover efekt */
+}
+
+/* Liste */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-left: 4px solid #FFD700; /* Žuti lijevi rub za stavke liste */
+    background-color: #1a1a1a; /* Tamna pozadina za stavke liste */
+}
